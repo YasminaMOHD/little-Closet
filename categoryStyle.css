@@ -1,0 +1,10 @@
+.category-header{background: rgb(74,74,74);}
+ul{padding-left: 0}
+.category-header ul li ,.product-bar ul li ,.number-page-card ul li{display: inline-block; color:  #969696;font-size: 16px;font-weight: 500}
+.category-header ul li a {color: #969696}
+.category-header ul li a:hover , .product-bar ul li:hover{color: rgb(47,206,154)}
+.category-header h3{color: #fff; font-size: 36px;font-weight: bold}
+.product-bar ul li{cursor: pointer}
+.number-page-card li a{color: rgb(47,206,154)}
+.number-page-card li a:hover , .number-page-card .active-page-card a{border: 2px solid rgb(47,206,154)}
+

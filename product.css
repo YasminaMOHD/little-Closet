@@ -1,0 +1,61 @@
+@font-face {
+    src:url("../font/DancingScript-Regular.ttf");
+    font-family: dancing;
+}
+.prod-header{background: rgb(74,74,74);}
+ul{padding-left: 0}
+.prod-header ul li{display: inline-block; color:  #969696;font-size: 16px;font-weight: 500}
+.prod-header ul li a {color: #969696}
+.prod-header ul li a:hover , .product-bar ul li:hover{color: rgb(47,206,154)}
+.prod-header h3{color: #fff; font-size: 36px;font-weight: bold}
+.card-body h5{font-size: 30px; font-weight: 500; color: #4a4a4a}
+.card-body .card-text ,.card-text a,.card-body p .review{font-size: 18px; font-weight: 400; color: #969696;}
+.card-text a:hover,.card-body p .review a{color: rgb(47,206,152)}
+.card-body #price {font-size: 61px;color: #4a4a4a;font-weight: 500}
+.card-body #price span{vertical-align: top;font-size: 30px}
+p i{font-size: 14px;}
+.card-body form p{color: #4a4a4a; font-size: 18px; font-weight: 700}
+.card-body form input[type=radio][disabled]+label{border:2px solid  #969696;color: #969696;cursor: default}
+.card-body form input[type=radio]+label{border:2px solid  #4a4a4a;color: #4a4a4a;
+    position: relative;}
+.card-body form label{display: inline-block; cursor: pointer; margin-right: 10px; transition: .5s;
+width: 36px;height: 36px;text-align: center;line-height: 36px;font-size: 14px}
+.card-body form input[type=radio]{display: none}
+.card-body form input[type=radio]:checked+label{color: rgb(47,206,152);border-color: rgb(47,206,152); }
+.card-body .text{color: #969696;font-size: 14px;font-weight: 300;}
+.horizantil-card .col-md .col-6{
+    border-bottom: 1px solid #969696;border-top: 1px solid #969696
+}
+.horizantil-card .col-md .col-6:hover{background: #0F9E5E;color: #fff; border:1px solid #0F9E5E;transition: .3s ease-in}
+.horizantil-card .col-md .col-6 i{font-size: 26px}
+.card,.card-body{border: 0 solid;}
+.card .col-md-6 img{position: relative}
+.owl-carousel{
+    transform: rotate(90deg);
+    width: 330px;
+    top:35%;
+    left: 43%;
+    position: absolute;
+}
+.item{
+    transform: rotate(-90deg);
+    box-shadow: 0px 8px 18px rgba(0,0,0,0.2);
+    display: block;
+    margin-left: 30px;
+}
+.owl-carousel .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 33px);
+}
+div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
+    font-size:36px;
+    top:unset;
+    bottom: 15px;
+}
+.two-box .col-lg-6 .row{background: rgb(248,248,248);width: 490px;}
+.two-box .col-8 h5{color: #4a4a4a;font-size: 24px;font-weight: 700;padding-top: 18px}
+.two-box .col-8 p{color: #4a4a4a;font-size: 15px;font-weight: 400}
+

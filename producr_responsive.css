@@ -1,0 +1,30 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .card .col-md-6 img{position: relative}
+    .owl-carousel{position: absolute;
+        transform: rotate(90deg);
+        width: 290px;
+        top:37%;
+        left: 55%;}
+
+}
+@media(min-width: 383px)and (max-width: 477px) {
+    .card .col-md-6 img{position: relative}
+    .owl-carousel{position: absolute;
+        transform: rotate(90deg);
+        width: 270px;
+        top:36%;
+        left: 44%;}
+}
+@media(max-width: 382px){
+    .card .col-md-6 img{position: relative}
+    .owl-carousel{position: absolute;
+        transform: rotate(90deg);
+        width: 270px;
+        top:36%;
+        left: 35%;}
+}
+@media (max-width: 991px) {
+    .two-box .col-lg-6 .row{background: rgb(248,248,248);width: 100%}
+    .two-box .col-lg-6{margin-bottom: 25px}
+}
+

@@ -1,0 +1,19 @@
+.check-header{background: rgb(74,74,74);}
+ul{padding-left: 0}
+.check-header ul li{display: inline-block; color:  #969696;font-size: 16px;font-weight: 500}
+.check-header ul li a {color: #969696}
+.check-header ul li a:hover , .product-bar ul li:hover{color: rgb(47,206,154)}
+.check-header h3{color: #fff; font-size: 36px;font-weight: bold}
+.checkOut-form .col-lg-6 , .checkOut-form .col-lg{background: rgb(248,248,248)}
+.checkOut-form input , .checkOut-form select{height: 50px; border: 1px solid #fff;}
+.checkOut-form h3{font-weight: bold}
+.checkOut-form input::placeholder , .checkOut-form select{color: #838383}
+.checkOut-form input:hover::placeholder{color: #000;}
+.checkOut-form input:hover,.checkOut-form select:hover{border-bottom: 2px solid #00E676; color: #000}
+.form-check label{position: relative}
+.form-check span{font-size: 14px}
+.checkOut-form .col-lg .info-cart{color: #838383}
+.color-cart{background: #fff;}
+.checkOut-form form input[type=radio]:checked+label{color: #00E676}
+.checkOut-form input[type=checkbox],.checkOut-form input[type=radio]{height:15px}
+.checkOut-form .col-lg p{color: #969696;font-size: 13px}
